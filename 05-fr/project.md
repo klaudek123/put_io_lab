@@ -17,8 +17,8 @@ Specyfikacja wymagań funkcjonalnych w ramach informatyzacji procesu sprzedaży 
 **Scenariusz główny:**
 1. [Sprzedający](#ac1) wystawia produkt na aukcję. ([UC1](#uc1))
 2. [Kupujący](#ac2) oferuje kwotę za produkt wyższą od aktualnie najwyższej oferty. ([BR1](#br1))
-3. [Kupujący](#ac2) wygrywa aukcję ([BR2](#br2))
-4. [Kupujący](#ac2) przekazuje należność Sprzedającemu. ([BR3](#br3))
+3. [Kupujący](#ac2) wygrywa aukcję ([BR3](#br3))
+4. [Kupujący](#ac2) przekazuje należność Sprzedającemu. ([BR4](#br4))
 5. [Sprzedający](#ac1) przekazuje produkt Kupującemu. ([UC2](#uc2))
 
 **Scenariusze alternatywne:**
@@ -145,4 +145,3 @@ Po zaksięgowaniu wpłaty, [Sprzedający](#ac1) przekazuje informacje o nadaniu 
 | BR2: Wygranie aukcji                                          | U      | U       | ... |
 | BR3: Przekazanie należności Sprzedającemu                     | R      | -       | ... |
 | UC2: Przekazanie produktu Kupującemu	                        | U      | U       | ... |
-
